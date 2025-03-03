@@ -4,7 +4,7 @@ publish_to: 'none' # Убедитесь, что это указано, чтоб�
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.5.0 <4.0.0"
+  sdk: ">=2.12.0 <4.0.0"
 
 dependencies:
   flutter:
