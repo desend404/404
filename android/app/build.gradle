@@ -42,11 +42,12 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.my_flutter_app"
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+    applicationId "com.example.my_flutter_app"
+    minSdkVersion flutter.minSdkVersion
+    targetSdkVersion flutter.targetSdkVersion
+    versionCode 2 // Увеличьте это число для новой версии
+    versionName "1.0.0" // Укажите версию, которую увидит пользователь
+}
     }
 
     buildTypes {
