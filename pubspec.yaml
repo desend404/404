@@ -1,6 +1,6 @@
 name: my_flutter_app
 description: A new Flutter project.
-publish_to: 'none' # Убедитесь, что это указано, чтобы не публиковать в pub.dev
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  permission_handler: ^10.4.0 # Добавьте зависимости, которые используете
+  permission_handler: ^10.4.0 # Пример зависимости
 
 dev_dependencies:
   flutter_test:
@@ -18,4 +18,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
